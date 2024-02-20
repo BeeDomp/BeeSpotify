@@ -209,7 +209,7 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             
             x=update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAI33mLYLNLilbRI-sKAAob0P7koTEJNAAIOBAACl42QVKnra4sdzC_uKQQ")
+                "CAACAgUAAxkBAAECdA1l1DPC-oEv3Lu0Aqn1svSSQfB34gACVgwAAlza6VUWUsP4pDar1TQE")
             x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
@@ -372,9 +372,9 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             "\n\n➲  sᴀʏᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀᴛᴀsɪ ᴘᴇɴɢɢᴜɴᴀ."
             "\n➲  ᴀᴋᴜ ᴘᴜɴʏᴀ sɪsᴛᴇᴍ ᴀɴᴛɪ ʙᴀɴᴊɪʀ ʏᴀɴɢ ᴄᴀɴɢɢɪʜ."
             "\n➲  sᴀʏᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴʏᴀᴘᴀ ᴘᴇɴɢɢᴜɴᴀ ᴅᴇɴɢᴀɴ ᴘᴇsᴀɴ sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴅɪsᴇsᴜᴀɪᴋᴀɴ ᴅᴀɴ ʙᴀʜᴋᴀɴ ᴍᴇɴᴇᴛᴀᴘᴋᴀɴ ᴀᴛᴜʀᴀɴ ɢʀᴜᴘ."
-            "\n➲  ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜꜱᴇʀꜱ ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴꜱ, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇꜰɪɴᴇᴅ ᴀᴄᴛɪᴏɴꜱ ꜱᴜᴄʜ ᴀꜱ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
-            "\n➲  ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ ꜱʏꜱᴛᴇᴍ, ʙʟᴀᴄᴋʟɪꜱᴛꜱ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇꜱ ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅꜱ."
-            f"\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ {dispatcher.bot.first_name}.",
+            "\n➲  sᴀʏᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴘᴇʀɪɴɢᴀᴛᴋᴀɴ ᴘᴇɴɢɢᴜɴᴀ sᴀᴍᴘᴀɪ ᴍᴇʀᴇᴋᴀ ᴍᴇɴᴄᴀᴘᴀɪ ᴍᴀᴋsɪᴍᴀʟ ᴘᴇʀɪɴɢᴀᴛᴀɴ, ᴅᴇɴɢᴀɴ sᴇᴛɪᴀᴘ ᴛɪɴᴅᴀᴋᴀɴ ʏᴀɴɢ ᴛᴇʟᴀʜ ᴅɪᴛᴇɴᴛᴜᴋᴀɴ sᴇᴘᴇʀᴛɪ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴅʟʟ."
+            "\n➲  sᴀʏᴀ ᴍᴇᴍɪʟɪᴋɪ sɪsᴛᴇᴍ ᴘᴇɴᴄᴀᴛᴀᴛᴀɴ, ᴅᴀғᴛᴀʀ ʜɪᴛᴀᴍ, ᴅᴀɴ ʙᴀʜᴋᴀɴ ʙᴀʟᴀsᴀɴ ʏᴀɴɢ ᴛᴇʟᴀʜ ᴅɪᴛᴇɴᴛᴜᴋᴀɴ ᴘᴀᴅᴀ ᴋᴀᴛᴀ ᴋᴜɴᴄɪ ᴛᴇʀᴛᴇɴᴛᴜ."
+            f"\n\n➻ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ʏᴀɴɢ ᴅɪʙᴇʀɪᴋᴀɴ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ʙᴀɴᴛᴜᴀɴ ᴅᴀɴ ɪɴғᴏʀᴍᴀsɪ ᴅᴀsᴀʀ ᴛᴇɴᴛᴀɴɢ {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -410,8 +410,8 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "mukesh_support":
-        query.message.edit_caption("**๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀ**"
-            f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {dispatcher.bot.first_name} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
+        query.message.edit_caption("**๏ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ʏᴀɴɢ ᴅɪʙᴇʀɪᴋᴀɴ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ʙᴀɴᴛᴜᴀɴ ᴅᴀɴ ɪɴғᴏʀᴍᴀsɪ ʟᴇʙɪʜ ʟᴀɴJᴜᴛ**"
+            f"\n\nJɪᴋᴀ ᴀɴᴅᴀ ᴍᴇɴᴇᴍᴜᴋᴀɴ ʙᴜɢ ᴅɪ {dispatcher.bot.first_name} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -463,7 +463,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(text="📕 Mᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
-                        InlineKeyboardButton(text="Mᴜsɪᴄ 🎧", callback_data="Music_")
+                        InlineKeyboardButton(text="Mᴜsɪᴄ 🎶", callback_data="Music_")
                     ],
                     [
                         InlineKeyboardButton(text="💁 Bᴀsɪᴄ ", callback_data="basic_help"),
@@ -478,14 +478,14 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data=="basic_help":
-        query.message.edit_caption("""Bᴀsɪᴄ Cᴏᴍᴍᴀɴᴅs.
-👮🏻Aᴠᴀɪʟᴀʙʟᴇ ᴛᴏ Aᴅᴍɪɴs & Mᴏᴅᴇʀᴀᴛᴏʀs.
-🕵🏻Aᴠᴀɪʟᴀʙʟᴇ ᴛᴏ Aᴅᴍɪɴs.
+        query.message.edit_caption("""ᴘᴇʀɪɴᴛᴀʜ ᴅᴀsᴀʀ.
+👮🏻ᴛᴇʀsᴇᴅɪᴀ ᴜɴᴛᴜᴋ ᴀᴅᴍɪɴ ᴅᴀɴ ᴍᴏᴅᴇʀᴀᴛᴏʀ.
+🕵🏻ᴛᴇʀsᴇᴅɪᴀ ᴜɴᴛᴜᴋ ᴀᴅᴍɪɴ.
 
-👮🏻 /reload ᴜᴘᴅᴀᴛᴇs ᴛʜᴇ Aᴅᴍɪɴs ʟɪsᴛ ᴀɴᴅ ᴛʜᴇɪʀ ᴘʀɪᴠɪʟᴇɢᴇs.
-🕵🏻 /settings ʟᴇᴛs ʏᴏᴜ ᴍᴀɴᴀɢᴇ ᴀʟʟ ᴛʜᴇ Bᴏᴛ sᴇᴛᴛɪɴɢs ɪɴ ᴀ ɢʀᴏᴜᴘ.
-👮🏻 /ban ʟᴇᴛs ʏᴏᴜ ʙᴀɴ ᴀ ᴜsᴇʀ ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜᴏᴜᴛ ɢɪᴠɪɴɢ ʜɪᴍ ᴛʜᴇ ᴘᴏssɪʙɪʟɪᴛʏ ᴛᴏ Jᴏɪɴ ᴀɢᴀɪɴ ᴜsɪɴɢ ᴛʜᴇ ʟɪɴᴋ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
-👮🏻 /mute ᴘᴜᴛs ᴀ ᴜsᴇʀ ɪɴ ʀᴇᴀᴅ-ᴏɴʟʏ ᴍᴏᴅᴇ. Hᴇ ᴄᴀɴ ʀᴇᴀᴅ ʙᴜᴛ ʜᴇ ᴄᴀɴ'ᴛ sᴇɴᴅ ᴀɴʏ ᴍᴇssᴀɢᴇs.
+👮🏻 /reload ᴍᴇᴍᴘᴇʀʙᴀʀᴜɪ ᴅᴀғᴛᴀʀ ᴀᴅᴍɪɴ.
+🕵🏻 /settings ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴘᴇɴɢᴀᴛᴜʀᴀɴ ʙᴏᴛ ᴅᴀʟᴀᴍ ɢʀᴜᴘ.
+👮🏻 /ban ᴍᴇᴍᴜɴɢᴋɪɴᴋᴀɴ ᴀɴᴅᴀ ᴍᴇɴᴄᴇᴋᴀʟ ᴘᴇɴɢɢᴜɴᴀ ᴅᴀʀɪ ɢʀᴜᴘ ᴛᴀɴᴘᴀ ᴍᴇᴍʙᴇʀɪɴʏᴀ ᴋᴇᴍᴜɴɢᴋɪɴᴀɴ ᴜɴᴛᴜᴋ ʙᴇʀɢᴀʙᴜɴɢ ʟᴀɢɪ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴛᴀᴜᴛᴀɴ ɢʀᴜᴘ.
+👮🏻 /mute ᴍᴇɴᴇᴍᴘᴀᴛᴋᴀɴ ᴘᴇɴɢɢᴜɴᴀ ᴅᴀʟᴀᴍ ᴍᴏᴅᴇ ʜᴀɴʏᴀ ʙᴀᴄᴀ. ᴅɪᴀ ʙɪsᴀ ᴍᴇᴍʙᴀᴄᴀ ᴛᴀᴘɪ ᴅɪᴀ ᴛɪᴅᴀᴋ ʙɪsᴀ ᴍᴇɴɢɪʀɪᴍ ᴘᴇsᴀɴ ᴀᴘᴀ ᴘᴜɴ.
 👮🏻 /kick ʙᴀɴs ᴀ ᴜsᴇʀ ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ, ɢɪᴠɪɴɢ ʜɪᴍ ᴛʜᴇ ᴘᴏssɪʙɪʟɪᴛʏ ᴛᴏ Jᴏɪɴ ᴀɢᴀɪɴ ᴡɪᴛʜ ᴛʜᴇ ʟɪɴᴋ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
 👮🏻 /unban ʟᴇᴛs ʏᴏᴜ ʀᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ ғʀᴏᴍ ɢʀᴏᴜᴘ's ʙʟᴀᴄᴋʟɪsᴛ, ɢɪᴠɪɴɢ ᴛʜᴇᴍ ᴛʜᴇ ᴘᴏssɪʙɪʟɪᴛʏ ᴛᴏ Jᴏɪɴ ᴀɢᴀɪɴ ᴡɪᴛʜ ᴛʜᴇ ʟɪɴᴋ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
 👮🏻 /info ɢɪᴠᴇs ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜsᴇʀ.
