@@ -411,7 +411,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "mukesh_support":
         query.message.edit_caption("**๏ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ʏᴀɴɢ ᴅɪʙᴇʀɪᴋᴀɴ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ʙᴀɴᴛᴜᴀɴ ᴅᴀɴ ɪɴғᴏʀᴍᴀsɪ ʟᴇʙɪʜ ʟᴀɴJᴜᴛ**"
-            f"\n\nJɪᴋᴀ ᴀɴᴅᴀ ᴍᴇɴᴇᴍᴜᴋᴀɴ ʙᴜɢ ᴅɪ {dispatcher.bot.first_name} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
+            f"\n\nJɪᴋᴀ ᴀɴᴅᴀ ᴍᴇɴᴇᴍᴜᴋᴀɴ ʙᴜɢ ᴅɪ {dispatcher.bot.first_name} ᴀᴛᴀᴜ Jɪᴋᴀ ᴀɴᴅᴀ ɪɴɢɪɴ ᴍᴇᴍʙᴇʀɪᴋᴀɴ ᴛᴀɴɢɢᴀᴘᴀɴ ᴛᴇɴᴛᴀɴɢ {dispatcher.bot.first_name}, sɪʟᴀᴋᴀɴ ʟᴀᴘᴏʀᴋᴀɴ ᴅɪ ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -462,7 +462,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="📕 Mᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
+                        InlineKeyboardButton(text="📕 Mᴀɴᴀɢᴇ", callback_data="help_back"),
                         InlineKeyboardButton(text="Mᴜsɪᴄ 🎶", callback_data="Music_")
                     ],
                     [
@@ -552,23 +552,23 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             )
     elif query.data=="expert_help":
         query.message.edit_caption(f"""━━━━━━━━━━━━━━━━━━━━
-ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇꜰꜰᴇᴄᴛɪᴠᴇ ɴᴏᴡ :
+Jᴀᴅɪᴋᴀɴ ɢʀᴜᴘ ᴀɴᴅᴀ ᴇғᴇᴋᴛɪғ sᴇᴋᴀʀᴀɴɢ :
 🎉 ᴄᴏɴɢʀᴀɢᴜʟᴀᴛɪᴏɴꜱ 🎉
-[{BOT_NAME}]("https://t.me/{BOT_USERNAME}") ɴᴏᴡ ʀᴇᴀᴅʏ ᴛᴏ
-ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+[{BOT_NAME}]("https://t.me/{BOT_USERNAME}") sᴇᴋᴀʀᴀɴɢ sɪᴀᴘ ᴜɴᴛᴜᴋ
+ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ.
 
-ᴀᴅᴍɪɴ ᴛᴏᴏʟꜱ :
-ʙᴀꜱɪᴄ ᴀᴅᴍɪɴ ᴛᴏᴏʟꜱ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ
-ᴘʀᴏᴛᴇᴄᴛ & ᴘᴏᴡᴇʀᴜᴘ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
-ʏᴏᴜ ᴄᴀɴ ʙᴀɴ, ᴋɪᴄᴋ, ᴘʀᴏᴍᴏᴛᴇ
-ᴍᴇᴍʙᴇʀꜱ ᴀꜱ ᴀᴅᴍɪɴ ᴛʜʀᴏᴜɢʜ ʙᴏᴛ.
+ᴀʟᴀᴛ ᴀᴅᴍɪɴ :
+ᴀʟᴀᴛ ᴀᴅᴍɪɴ ᴅᴀsᴀʀ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ
+ᴍᴇʟɪɴᴅᴜɴɢɪ & ᴍᴇᴍᴘᴇʀᴋᴜᴀᴛ ɢʀᴜᴘ ᴀɴᴅᴀ.
+ᴀɴᴅᴀ ᴅᴀᴘᴀᴛ ᴍᴇʟᴀʀᴀɴɢ, ᴍᴇɴᴇɴᴅᴀɴɢ, ᴍᴇᴍᴘʀᴏᴍᴏsɪᴋᴀɴ
+ᴀɴɢɢᴏᴛᴀ sᴇʙᴀɢᴀɪ ᴀᴅᴍɪɴ ᴍᴇʟᴀʟᴜɪ ʙᴏᴛ.
 
-ɢʀᴇᴇᴛɪɴɢꜱ :
-ʟᴇᴛꜱ ꜱᴇᴛ ᴀ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ
-ᴡᴇʟᴄᴏᴍᴇ ɴᴇᴡ ᴜꜱᴇʀꜱ ᴄᴏᴍɪɴɢ ᴛᴏ
-ʏᴏᴜʀ ɢʀᴏᴜᴘ.
-ꜱᴇɴᴅ /setwelcome ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ
-ꜱᴇᴛ ᴀ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇ!""",parse_mode=ParseMode.MARKDOWN,
+sᴀʟᴀᴍ :
+ᴍᴀʀɪ ᴀᴛᴜʀ ᴘᴇsᴀɴ sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ
+ᴜɴᴛᴜᴋ ᴍᴇɴʏᴀᴍʙᴜᴛ ᴘᴇɴɢɢᴜɴᴀ ʙᴀʀᴜ
+ʏᴀɴɢ ᴅᴀᴛᴀɴɢ ᴋᴇ ɢʀᴜᴘ ᴀɴᴅᴀ.
+ᴋɪʀɪᴍ /setwelcome ᴘᴇsᴀɴ ᴜɴᴛᴜᴋ 
+ᴍᴇɴɢᴀᴛᴜʀ ᴘᴇsᴀɴ sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ!""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -579,7 +579,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             ),
             )
     elif query.data=="donation_help":
-        query.message.edit_caption("""Aʀᴇ ʏᴏᴜ ɪɴᴛᴇʀᴇsᴛᴇᴅ ɪɴ ʜᴇʟᴘɪɴɢ ᴍʏ ᴄʀᴇᴀᴛᴏʀ ᴡɪᴛʜ ʜɪs ᴇғғᴏʀᴛs ᴛᴏ ᴋᴇᴇᴘ ᴍᴇ ɪɴ ᴀᴄᴛɪᴠᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ? Iғ ʏᴇs, Yᴏᴜ'ʀᴇ ɪɴ ᴛʜᴇ ʀɪɢʜᴛ ᴘʟᴀᴄᴇ. 
+        query.message.edit_caption("""ᴀᴘᴀᴋᴀʜ ᴀɴᴅᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴘᴇɴᴄɪᴘᴛᴀ sᴀʏᴀ ᴅᴇɴɢᴀɴ ᴜᴘᴀʏᴀɴʏᴀ ᴀɢᴀʀ sᴀʏᴀ ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ ʙᴇʀᴋᴇᴍʙᴀɴɢ? Jɪᴋᴀ ʏᴀ, ᴀɴᴅᴀ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴇᴍᴘᴀᴛ ʏᴀɴɢ ᴛᴇᴘᴀᴛ. 
 
 Wᴇ ᴇᴍᴘʜᴀsɪsᴇ ᴛʜᴇ ɪᴍᴘᴏʀᴛᴀɴᴄᴇ ᴏғ ɴᴇᴇᴅɪɴɢ ғᴜɴᴅs ᴛᴏ ᴋᴇᴇᴘ MᴜᴋᴇsʜRᴏʙᴏᴛ ᴜɴᴅᴇʀ ᴀᴄᴛɪᴠᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ. Yᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴs ɪɴ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ᴏғ ᴍᴏɴᴇʏ ᴛᴏ MᴜᴋᴇsʜRᴏʙᴏᴛ sᴇʀᴠᴇʀs ᴀɴᴅ ᴏᴛʜᴇʀ ᴜᴛɪʟɪᴛɪᴇs ᴡɪʟʟ ᴀʟʟᴏᴡ ᴜs ᴛᴏ sᴜsᴛᴀɪɴ ᴛʜᴇ ʟɪғᴇsᴘᴀɴ ɪɴ ᴛʜᴇ ʟᴏɴɢ ᴛᴇʀᴍ. Wᴇ ᴡɪʟʟ ᴜsᴇ ᴀʟʟ ᴏғ ᴛʜᴇ ᴅᴏɴᴀᴛɪᴏɴs ᴛᴏ ᴄᴏᴠᴇʀ ғᴜᴛᴜʀᴇ ᴇxᴘᴇɴsᴇs ᴀɴᴅ ᴜᴘɢʀᴀᴅᴇs ᴏғ ᴛʜᴇ sᴇʀᴠᴇʀs ᴄᴏsᴛs. Iғ ʏᴏᴜ'ᴠᴇ ɢᴏᴛ sᴘᴀʀᴇ ᴍᴏɴᴇʏ ᴛᴏ ʜᴇʟᴘ ᴜs ɪɴ ᴛʜɪs ᴇғғᴏʀᴛ, Kɪɴᴅʟʏ ᴅᴏ sᴏ ᴀɴᴅ ʏᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴs ᴄᴀɴ ᴀʟsᴏ ᴍᴏᴛɪᴠᴀᴛᴇ ᴜs ᴋᴇᴇᴘ ʙʀɪɴɢ ᴏɴ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs.
 
