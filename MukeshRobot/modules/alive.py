@@ -19,12 +19,12 @@ PHOTO = [
 
 Mukesh = [
     [
-        InlineKeyboardButton(text="ʙᴇᴇ", user_id=OWNER_ID),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER_ID),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ʏᴀɴɢ ʟᴀɪɴ ᴋᴇ ɢʀᴜᴘ ᴀɴᴅᴀ➕",
+            text="➕ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴜᴘ ᴀɴᴅᴀ➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -35,24 +35,24 @@ Mukesh = [
 @pbot.on_message(filters.command("alive"))
 async def restart(client, m: Message):
     await m.delete()
-    accha = await m.reply("🧐")
-    await asyncio.sleep(0.4)
+    accha = await m.reply("😄")
+    await asyncio.sleep(4)
     await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ..")
-    await asyncio.sleep(0.2)
+    await asyncio.sleep(2)
     await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ......")
-    await asyncio.sleep(0.2)
+    await asyncio.sleep(3)
     await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ..")
 
     await accha.delete()
-    await asyncio.sleep(0.4)
+    await asyncio.sleep(4)
     umm = await m.reply_sticker(
         "CAACAgUAAxkBAAECdbhl1czC2RFotISlPVc5RPPaWqLwzgACqQ0AApzl6FWTXluJ1KCA2DQE"
     )
     await umm.delete()
-    await asyncio.sleep(0.2)
+    await asyncio.sleep(2)
     await m.reply_photo(
         START_IMG,
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
+        caption=f"""**ʜᴇɪ, ᴀᴋᴜ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
    ━━━━━━━━━━━━━━━━━━━
   » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴏᴡɴᴇʀ](tg://user?id={OWNER_ID})
   
