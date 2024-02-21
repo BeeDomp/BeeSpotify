@@ -35,16 +35,16 @@ Mukesh = [
 @pbot.on_message(filters.command("alive"))
 async def restart(client, m: Message):
     await m.delete()
-    accha = await m.reply("😄")
+    accha = await m.reply("🙂")
     await asyncio.sleep(4)
-    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ..")
-    await asyncio.sleep(2)
-    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ......")
-    await asyncio.sleep(3)
-    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ..")
+    await accha.edit("ʜᴀɪ...")
+    await asyncio.sleep(1)
+    await accha.edit("ᴊᴀᴍᴇᴛ.....")
+    await asyncio.sleep(1)
+    await accha.edit("ᴛᴇʟᴇɢʀᴀᴍ..")
 
     await accha.delete()
-    await asyncio.sleep(4)
+    await asyncio.sleep(0.2)
     umm = await m.reply_sticker(
         "CAACAgUAAxkBAAECdbhl1czC2RFotISlPVc5RPPaWqLwzgACqQ0AApzl6FWTXluJ1KCA2DQE"
     )
