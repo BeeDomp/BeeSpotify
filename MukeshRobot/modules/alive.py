@@ -44,12 +44,12 @@ async def restart(client, m: Message):
     await accha.edit("ᴛᴇʟᴇɢʀᴀᴍ..")
 
     await accha.delete()
-    await asyncio.sleep(0.2)
+    await asyncio.sleep(1)
     umm = await m.reply_sticker(
         "CAACAgUAAxkBAAECdbhl1czC2RFotISlPVc5RPPaWqLwzgACqQ0AApzl6FWTXluJ1KCA2DQE"
     )
     await umm.delete()
-    await asyncio.sleep(2)
+    await asyncio.sleep(3)
     await m.reply_photo(
         START_IMG,
         caption=f"""**ʜᴇɪ, ᴀᴋᴜ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
