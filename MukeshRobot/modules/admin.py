@@ -34,26 +34,26 @@ def set_sticker(update: Update, context: CallbackContext):
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
         return msg.reply_text(
-            "» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴩ ɪɴғᴏ ʙᴀʙʏ !"
+            "» ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴍᴇᴍɪʟɪᴋɪ ɪᴢɪɴ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴜʙᴀʜ ɪɴғᴏ ɢʀᴜᴘ !"
         )
 
     if msg.reply_to_message:
         if not msg.reply_to_message.sticker:
             return msg.reply_text(
-                "» ʀᴇᴩʟʏ ᴛᴏ ᴀ sᴛɪᴄᴋᴇʀ ᴛᴏ sᴇᴛ ɪᴛ ᴀs ɢʀᴏᴜᴩ sᴛɪᴄᴋᴇʀ ᴩᴀᴄᴋ !"
+                "» ᴍᴇᴍʙᴀʟᴀs sᴛɪᴋᴇʀ ᴜɴᴛᴜᴋ ᴍᴇɴJᴀᴅɪᴋᴀɴɴʏᴀ sᴇʙᴀɢᴀɪ ᴘᴀᴋᴇᴛ sᴛɪᴋᴇʀ ɢʀᴜᴘ !"
             )
         stkr = msg.reply_to_message.sticker.set_name
         try:
             context.bot.set_chat_sticker_set(chat.id, stkr)
-            msg.reply_text(f"» sᴜᴄᴄᴇssғᴜʟʟʏ sᴇᴛ ɢʀᴏᴜᴩ sᴛɪᴄᴋᴇʀs ɪɴ {chat.title}!")
+            msg.reply_text(f"» ʙᴇʀʜᴀsɪʟ ᴍᴇᴍᴀsᴜᴋᴋᴀɴ sᴛɪᴋᴇʀ ɢʀᴜᴘ {chat.title}!")
         except BadRequest as excp:
             if excp.message == "Participants_too_few":
                 return msg.reply_text(
-                    "» ʏᴏᴜʀ ɢʀᴏᴜᴩ ɴᴇᴇᴅs ᴍɪɴɪᴍᴜᴍ 100 ᴍᴇᴍʙᴇʀs ғᴏʀ sᴇᴛᴛɪɴɢ ᴀ sᴛɪᴄᴋᴇʀ ᴩᴀᴄᴋ ᴀs ɢʀᴏᴜᴩ sᴛɪᴄᴋᴇʀ ᴩᴀᴄᴋ !"
+                    "» ɢʀᴜᴘ ᴀɴᴅᴀ ᴍᴇᴍᴇʀʟᴜᴋᴀɴ ᴍɪɴɪᴍᴀʟ 𝟷𝟶𝟶 ᴀɴɢɢᴏᴛᴀ ᴜɴᴛᴜᴋ ᴍᴇɴᴇᴛᴀᴘᴋᴀɴ ᴘᴀᴋᴇᴛ sᴛɪᴋᴇʀ sᴇʙᴀɢᴀɪ ᴘᴀᴋᴇᴛ sᴛɪᴋᴇʀ ɢʀᴜᴘ !"
                 )
             msg.reply_text(f"ᴇʀʀᴏʀ ! {excp.message}.")
     else:
-        msg.reply_text("» ʀᴇᴩʟʏ ᴛᴏ ᴀ sᴛɪᴄᴋᴇʀ ᴛᴏ sᴇᴛ ɪᴛ ᴀs ɢʀᴏᴜᴩ sᴛɪᴄᴋᴇʀ ᴩᴀᴄᴋ !")
+        msg.reply_text("» ᴍᴇᴍʙᴀʟᴀs sᴛɪᴋᴇʀ ᴜɴᴛᴜᴋ ᴍᴇɴJᴀᴅɪᴋᴀɴɴʏᴀ sᴇʙᴀɢᴀɪ ᴘᴀᴋᴇᴛ sᴛɪᴋᴇʀ ɢʀᴜᴘ !")
 
 
 @bot_admin
@@ -64,7 +64,7 @@ def setchatpic(update: Update, context: CallbackContext):
     user = update.effective_user
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        msg.reply_text("» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴩ ɪɴғᴏ ʙᴀʙʏ !")
+        msg.reply_text("» ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴍᴇᴍɪʟɪᴋɪ ɪᴢɪɴ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴜʙᴀʜ ɪɴғᴏ ɢʀᴜᴘ !")
         return
 
     if msg.reply_to_message:
@@ -73,15 +73,15 @@ def setchatpic(update: Update, context: CallbackContext):
         elif msg.reply_to_message.document:
             pic_id = msg.reply_to_message.document.file_id
         else:
-            msg.reply_text("» ʏᴏᴜ ᴄᴀɴ ᴏɴʟʏ sᴇᴛ ᴩʜᴏᴛᴏs ᴀs ɢʀᴏᴜᴩ ᴩғᴩ !")
+            msg.reply_text("» ᴀɴᴅᴀ ʜᴀɴʏᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴɢᴀᴛᴜʀ ғᴏᴛᴏ sᴇʙᴀɢᴀɪ ᴘғᴘ ɢʀᴜᴘ !")
             return
-        dlmsg = msg.reply_text("» ᴄʜᴀɴɢɪɴɢ ɢʀᴏᴜᴩ's ᴩʀᴏғɪʟᴇ ᴩɪᴄ...")
+        dlmsg = msg.reply_text("» ᴍᴇɴɢᴜʙᴀʜ ғᴏᴛᴏ ᴘʀᴏғɪʟ ɢʀᴜᴘ...")
         tpic = context.bot.get_file(pic_id)
         tpic.download("gpic.png")
         try:
             with open("gpic.png", "rb") as chatp:
                 context.bot.set_chat_photo(int(chat.id), photo=chatp)
-                msg.reply_text("» sᴜᴄᴄᴇssғᴜʟʟʏ sᴇᴛ ɢʀᴏᴜᴩ ᴩʀᴏғɪʟᴇ ᴩɪᴄ !")
+                msg.reply_text("» ʙᴇʀʜᴀsɪʟ ᴍᴇɴɢᴀᴛᴜʀ ғᴏᴛᴏ ᴘʀᴏғɪʟ ɢʀᴜᴘ !")
         except BadRequest as excp:
             msg.reply_text(f"ᴇʀʀᴏʀ ! {excp.message}")
         finally:
@@ -89,7 +89,7 @@ def setchatpic(update: Update, context: CallbackContext):
             if os.path.isfile("gpic.png"):
                 os.remove("gpic.png")
     else:
-        msg.reply_text("» ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴩʜᴏᴛᴏ ᴏʀ ғɪʟᴇ ᴛᴏ sᴇᴛ ɪᴛ ᴀs ɢʀᴏᴜᴩ ᴩʀᴏғɪʟᴇ ᴩɪᴄ !")
+        msg.reply_text("» ᴍᴇᴍʙᴀʟᴀs ғᴏᴛᴏ ᴀᴛᴀᴜ ғɪʟᴇ ᴜɴᴛᴜᴋ ᴍᴇɴJᴀᴅɪᴋᴀɴɴʏᴀ sᴇʙᴀɢᴀɪ ғᴏᴛᴏ ᴘʀᴏғɪʟ ɢʀᴜᴘ !")
 
 
 @bot_admin
@@ -100,11 +100,11 @@ def rmchatpic(update: Update, context: CallbackContext):
     user = update.effective_user
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        msg.reply_text("» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴩ ɪɴғᴏ ʙᴀʙʏ !")
+        msg.reply_text("» ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴍᴇᴍɪʟɪᴋɪ ɪᴢɪɴ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴜʙᴀʜ ɪɴғᴏ ɢʀᴜᴘ !")
         return
     try:
         context.bot.delete_chat_photo(int(chat.id))
-        msg.reply_text("» sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ɢʀᴏᴜᴩ's ᴅᴇғᴀᴜʟᴛ ᴩʀᴏғɪʟᴇ ᴩɪᴄ !")
+        msg.reply_text("» ʙᴇʀʜᴀsɪʟ ᴍᴇɴɢʜᴀᴘᴜs ғᴏᴛᴏ ᴅᴇғᴀᴜʟᴛ ɢʀᴜᴘ !")
     except BadRequest as excp:
         msg.reply_text(f"ᴇʀʀᴏʀ ! {excp.message}.")
         return
@@ -119,21 +119,21 @@ def set_desc(update: Update, context: CallbackContext):
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
         return msg.reply_text(
-            "» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴩ ɪɴғᴏ ʙᴀʙʏ !"
+            "» ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴍᴇᴍɪʟɪᴋɪ ɪᴢɪɴ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴜʙᴀʜ ɪɴғᴏ ɢʀᴜᴘ !"
         )
 
     tesc = msg.text.split(None, 1)
     if len(tesc) >= 2:
         desc = tesc[1]
     else:
-        return msg.reply_text("» ᴡᴛғ, ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴛ ᴀɴ ᴇᴍᴩᴛʏ ᴅᴇsᴄʀɪᴩᴛɪᴏɴ !")
+        return msg.reply_text("» ᴡᴛғ, ᴀɴᴅᴀ ɪɴɢɪɴ ᴍᴇɴʏᴇᴛᴇʟ ᴅᴇsᴋʀɪᴘsɪ ᴋᴏsᴏɴɢ !")
     try:
         if len(desc) > 255:
             return msg.reply_text(
-                "» ᴅᴇsᴄʀɪᴩᴛɪᴏɴ ᴍᴜsᴛ ʙᴇ ʟᴇss ᴛʜᴀɴ 255 ᴡᴏʀᴅs ᴏʀ ᴄʜᴀʀᴀᴄᴛᴇʀs !"
+                "» ᴅᴇsᴋʀɪᴘsɪ ʜᴀʀᴜs ᴋᴜʀᴀɴɢ ᴅᴀʀɪ 𝟸𝟻𝟻 ᴋᴀᴛᴀ ᴀᴛᴀᴜ ᴋᴀʀᴀᴋᴛᴇʀ !"
             )
         context.bot.set_chat_description(chat.id, desc)
-        msg.reply_text(f"» sᴜᴄᴄᴇssғᴜʟʟʏ ᴜᴩᴅᴀᴛᴇᴅ ᴄʜᴀᴛ ᴅᴇsᴄʀɪᴩᴛɪᴏɴ ɪɴ {chat.title}!")
+        msg.reply_text(f"» ʙᴇʀʜᴀsɪʟ ᴍᴇᴍᴘᴇʀʙᴀʀᴜɪ ᴅᴇsᴋʀɪᴘsɪ ᴏʙʀᴏʟᴀɴ ᴅɪ {chat.title}!")
     except BadRequest as excp:
         msg.reply_text(f"ᴇʀʀᴏʀ ! {excp.message}.")
 
@@ -147,18 +147,18 @@ def setchat_title(update: Update, context: CallbackContext):
     args = context.args
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        msg.reply_text("» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴩ ɪɴғᴏ ʙᴀʙʏ !")
+        msg.reply_text("» ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴍᴇᴍɪʟɪᴋɪ ɪᴢɪɴ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴜʙᴀʜ ɪɴғᴏ ɢʀᴜᴘ !")
         return
 
     title = " ".join(args)
     if not title:
-        msg.reply_text("» ᴇɴᴛᴇʀ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴛ ɪᴛ ᴀs ɴᴇᴡ ᴄʜᴀᴛ ᴛɪᴛʟᴇ !")
+        msg.reply_text("» ᴍᴀsᴜᴋᴋᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ᴛᴇᴋs ᴜɴᴛᴜᴋ ᴍᴇɴJᴀᴅɪᴋᴀɴɴʏᴀ sᴇʙᴀɢᴀɪ Jᴜᴅᴜʟ ᴏʙʀᴏʟᴀɴ ʙᴀʀᴜ !")
         return
 
     try:
         context.bot.set_chat_title(int(chat.id), str(title))
         msg.reply_text(
-            f"» sᴜᴄᴄᴇssғᴜʟʟʏ sᴇᴛ <b>{title}</b> ᴀs ɴᴇᴡ ᴄʜᴀᴛ ᴛɪᴛʟᴇ !",
+            f"» ʙᴇʀʜᴀsɪʟ ᴍᴇɴɢᴀᴛᴜʀ <b>{title}</b> sᴇʙᴀɢᴀɪ Jᴜᴅᴜʟ ᴏʙʀᴏʟᴀɴ ʙᴀʀᴜ !",
             parse_mode=ParseMode.HTML,
         )
     except BadRequest as excp:
@@ -182,17 +182,17 @@ def promote(update: Update, context: CallbackContext) -> str:
     promoter = chat.get_member(user.id)
 
     if (
-        not (promoter.can_promote_members or promoter.status == "creator")
+        not (promoter.can_promote_members or promoter.status == "pencipta")
         and user.id not in DRAGONS
     ):
-        message.reply_text("» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴀᴅᴅ ɴᴇᴡ ᴀᴅᴍɪɴs ʙᴀʙʏ !")
+        message.reply_text("» ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴍᴇᴍɪʟɪᴋɪ ɪᴢɪɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴀᴅᴍɪɴ ʙᴀʀᴜ !")
         return
 
     user_id = extract_user(message, args)
 
     if not user_id:
         message.reply_text(
-            "» ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ᴡʜᴏ's ᴛʜᴀᴛ ᴜsᴇʀ, ɴᴇᴠᴇʀ sᴇᴇɴ ʜɪᴍ ɪɴ ᴀɴʏ ᴏғ ᴛʜᴇ ᴄʜᴀᴛs ᴡʜᴇʀᴇ ɪ ᴀᴍ ᴩʀᴇsᴇɴᴛ !",
+            "» sᴀʏᴀ ᴛɪᴅᴀᴋ ᴛᴀʜᴜ sɪᴀᴘᴀ ᴘᴇɴɢɢᴜɴᴀ ɪᴛᴜ, ᴛɪᴅᴀᴋ ᴘᴇʀɴᴀʜ ᴍᴇʟɪʜᴀᴛɴʏᴀ ᴅɪ ᴏʙʀᴏʟᴀɴ ᴍᴀɴᴀ ᴘᴜɴ ʏᴀɴɢ sᴀʏᴀ ʜᴀᴅɪʀɪ !",
         )
         return
 
@@ -201,13 +201,13 @@ def promote(update: Update, context: CallbackContext) -> str:
     except:
         return
 
-    if user_member.status in ("administrator", "creator"):
-        message.reply_text("» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ᴛʜᴀᴛ ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴀɴ ᴀᴅᴍɪɴ ʜᴇʀᴇ !")
+    if user_member.status in ("administrator", "pencipta"):
+        message.reply_text("» ᴍᴇɴᴜʀᴜᴛ sᴀʏᴀ ᴘᴇɴɢɢᴜɴᴀ ᴛᴇʀsᴇʙᴜᴛ sᴜᴅᴀʜ ᴍᴇɴJᴀᴅɪ ᴀᴅᴍɪɴ ᴅɪsɪɴɪ !")
         return
 
     if user_id == bot.id:
         message.reply_text(
-            "» ɪ ᴄᴀɴ'ᴛ ᴩʀᴏᴍᴏᴛᴇ ᴍʏsᴇʟғ, ᴍʏ ᴏᴡɴᴇʀ ᴅɪᴅɴ'ᴛ ᴛᴏʟᴅ ᴍᴇ ᴛᴏ ᴅᴏ sᴏ."
+            "» sᴀʏᴀ ᴛɪᴅᴀᴋ ʙɪsᴀ ᴍᴇᴍᴘʀᴏᴍᴏsɪᴋᴀɴ ᴅɪʀɪ sᴀʏᴀ sᴇɴᴅɪʀɪ, ᴘᴇᴍɪʟɪᴋ sᴀʏᴀ ᴛɪᴅᴀᴋ ᴍᴇɴʏᴜʀᴜʜ sᴀʏᴀ ᴍᴇʟᴀᴋᴜᴋᴀɴɴʏᴀ."
         )
         return
 
@@ -228,16 +228,16 @@ def promote(update: Update, context: CallbackContext) -> str:
         )
     except BadRequest as err:
         if err.message == "User_not_mutual_contact":
-            message.reply_text("» ᴀs ɪ ᴄᴀɴ sᴇᴇ ᴛʜᴀᴛ ᴜsᴇʀ ɪs ɴᴏᴛ ᴩʀᴇsᴇɴᴛ ʜᴇʀᴇ.")
+            message.reply_text("» sᴇᴘᴇʀᴛɪ ʏᴀɴɢ sᴀʏᴀ ʟɪʜᴀᴛ ʙᴀʜᴡᴀ ᴘᴇɴɢɢᴜɴᴀ ᴛɪᴅᴀᴋ ᴀᴅᴀ ᴅɪ sɪɴɪ.")
         else:
             message.reply_text(
-                "» sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ, ᴍᴀʏʙᴇ sᴏᴍᴇᴏɴᴇ ᴩʀᴏᴍᴏᴛᴇᴅ ᴛʜᴀᴛ ᴜsᴇʀ ʙᴇғᴏʀᴇ ᴍᴇ."
+                "» ᴀᴅᴀ ʏᴀɴɢ ᴛɪᴅᴀᴋ ʙᴇʀᴇs, ᴍᴜɴɢᴋɪɴ sᴇsᴇᴏʀᴀɴɢ ᴍᴇᴍᴘʀᴏᴍᴏsɪᴋᴀɴ ᴘᴇɴɢɢᴜɴᴀ ɪᴛᴜ sᴇʙᴇʟᴜᴍ sᴀʏᴀ."
             )
         return
 
     bot.sendMessage(
         chat.id,
-        f"<b>» ᴩʀᴏᴍᴏᴛɪɴɢ ᴀ ᴜsᴇʀ ɪɴ</b> {chat.title}\n\nᴩʀᴏᴍᴏᴛᴇᴅ : {mention_html(user_member.user.id, user_member.user.first_name)}\nᴩʀᴏᴍᴏᴛᴇʀ : {mention_html(user.id, user.first_name)}",
+        f"<b>"» ᴍᴇᴍᴘʀᴏᴍᴏsɪᴋᴀɴ ᴘᴇɴɢɢᴜɴᴀ ᴅɪ</b> {chat.title}\n\nᴩʀᴏᴍᴏᴛᴇᴅ : {mention_html(user_member.user.id, user_member.user.first_name)}\nᴩʀᴏᴍᴏᴛᴇʀ : {mention_html(user.id, user.first_name)}",
         parse_mode=ParseMode.HTML,
     )
 
@@ -822,7 +822,7 @@ def adminlist(update, context):
         # if user.username:
         #    name = escape_markdown("@" + user.username)
         if status == "creator":
-            text += "\n 🥀 ᴏᴡɴᴇʀ :"
+            text += "\n 🔱 ᴏᴡɴᴇʀ :"
             text += "\n<code> • </code>{}\n".format(name)
 
             if custom_title:
@@ -884,26 +884,26 @@ def adminlist(update, context):
 
 __help__ = """
 *User Commands*:
-» /admins*:* list of admins in the chat
-» /pinned*:* to get the current pinned message.
+» /admins*:* daftar admin di chat
+» /pinned*:* untuk mendapatkan pesan yang disematkan saat ini.
 
-*The Following Commands are Admins only:* 
-» /pin*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users
-» /unpin*:* unpins the currently pinned message
-» /invitelink*:* gets invitelink
-» /promote*:* promotes the user replied to
-» /lowpromote*:* promotes the user replied to with half rights
-» /fullpromote*:* promotes the user replied to with full rights
-» /demote*:* demotes the user replied to
-» /title <title here>*:* sets a custom title for an admin that the bot promoted
-» /admincache*:* force refresh the admins list
-» /del*:* deletes the message you replied to
-» /purge*:* deletes all messages between this and the replied to message.
-» /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
-» /setgtitle <text>*:* set group title
-» /setgpic*:* reply to an image to set as group photo
-» /setdesc*:* Set group description
-» /setsticker*:* Set group sticker
+*Perintah Berikut ini hanya untuk Admin:* 
+» /pin*:* diam-diam menyematkan pesan yang dibalas - menambahkan `'keras'` atau `'memberitahu'` untuk memberikan notifikasi kepada pengguna
+» /unpin*:* melepas pin pesan yang saat ini dipasangi pin
+» /invitelink*:* dapatkan tautan undangan
+» /promote*:* mempromosikan pengguna yang membalas
+» /lowpromote*:* mempromosikan pengguna membalas dengan setengah hak
+» /fullpromote*:* mempromosikan pengguna membalas dengan hak penuh
+» /demote*:* menurunkan pangkat pengguna yang membalas
+» /title <title here>*:* menetapkan judul khusus untuk admin yang dipromosikan bot
+» /admincache*:* memaksa menyegarkan daftar admin
+» /del*:* menghapus pesan yang Anda balas
+» /purge*:* menghapus semua pesan antara ini dan pesan yang dibalas.
+» /purge <integer X>*:* menghapus pesan yang dibalas, dan X pesan berikutnya jika pesan dibalas.
+» /setgtitle <text>*:* tetapkan judul grup
+» /setgpic*:* membalas gambar untuk ditetapkan sebagai foto grup
+» /setdesc*:* Tetapkan deskripsi grup
+» /setsticker*:* Setel stiker grup
 """
 
 SET_DESC_HANDLER = CommandHandler("setdesc", set_desc, run_async=True)
